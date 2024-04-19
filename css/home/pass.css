@@ -1,0 +1,54 @@
+.pass-bg{
+background-color: var(--cor-cinza-3);
+}
+
+.pass{
+padding-top: 40px;
+padding-bottom: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.pass h2{
+margin-bottom: 30px;
+text-align: center;
+}
+
+.pass-logos{
+display: flex;
+align-items: center;
+gap: 40px;
+}
+
+@media(max-width: 900px){
+.pass{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.pass h2{
+margin-bottom: 20px;
+}
+
+.pass-logos img{
+width: auto;
+height: 50px;
+}
+}
+
+@media(max-width: 480px){
+.pass-logos{
+gap: 30px;
+}
+
+.pass-logos img{
+width: auto;
+height: 40px;
+}
+
+.pass{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+}

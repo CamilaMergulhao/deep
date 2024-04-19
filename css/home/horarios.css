@@ -1,0 +1,255 @@
+.horarios-bg {
+background-color: var(--cor-preto);
+}
+
+.horarios {
+padding-top: 80px;
+padding-bottom: 100px;
+}
+
+.horarios-ctn-box {
+max-width: 1100px;
+margin: 0 auto;
+}
+
+.horarios-ctn {
+border-radius: 25px;
+background-color: var(--cor-brand-2);
+padding-top: 40px;
+padding-bottom: 60px;
+}
+
+.horarios-ctn h2 {
+margin-bottom: 30px;
+text-align: center;
+}
+
+.horarios-menu {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+justify-content: center;
+}
+
+.horarios-menu li {
+margin-right: 20px;
+}
+
+.horarios-menu li:last-child {
+margin-right: 0;
+}
+
+.horarios-menu li a {
+display: inline-block;
+border: 2px solid var(--cor-preto);
+padding: 10px 35px;
+width: 150px;
+text-align: center;
+color: var(--cor-brand-1);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+transition: 0.2s;
+}
+
+.horarios-tab {
+display: none;
+overflow-x: auto; 
+padding-left: 70px;
+padding-right: 70px;
+}
+
+/* tabela */
+
+table {
+border-collapse: collapse;
+margin: 0 auto;
+width: 100%;
+}
+
+thead {
+background-color: var(--cor-preto-3);
+}
+
+thead,
+tr {
+margin: 0;
+border: 0;
+}
+
+/* radius */
+
+.top-left-radius {
+border-top-left-radius: 5px;
+}
+
+.top-right-radius {
+border-top-right-radius: 5px;
+}
+
+.bottom-right-radius {
+border-bottom-right-radius: 5px;
+}
+
+.bottom-left-radius {
+border-bottom-left-radius: 5px;
+}
+
+th {
+padding: 10px;
+color: var(--cor-0);
+background-color: var(--cor-preto);
+}
+
+.row-1 {
+background-color: var(--cor-cinza-1);
+}
+
+.row-2 {
+background-color: var(--cor-cinza-2);
+}
+
+td {
+padding: 10px;
+text-align: center;
+}
+
+/* js */
+
+.horarios-tab.active {
+display: block;
+}
+
+.horarios-menu li a.active {
+background-color: var(--cor-brand-1);
+border: 2px solid var(--cor-brand-1);
+color: var(--cor-0);
+}
+
+
+@media(max-width: 900px){
+
+.horarios-ctn h2 {
+margin-bottom: 20px;
+}
+
+
+.horarios-menu li a {
+padding: 10px 30px;
+width: 100px;
+}
+
+.horarios-menu li {
+margin-right: 15px;
+}
+
+.horarios-menu li:last-child {
+margin-right: 0;
+}
+
+.horarios-tab {
+padding-left: 40px;
+padding-right: 40px;
+}
+}
+
+@media(max-width: 768px){
+.horarios-tab {
+padding-left: 20px;
+padding-right: 20px;
+}
+}
+
+@media(max-width: 650px) {
+
+.horarios-ctn{
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+.horarios-ctn h2 {
+margin-bottom: 15px;
+}
+
+.horarios-menu{
+margin-bottom: 15px;
+}
+
+.horarios-tab-modalidades {
+overflow-x: auto;
+width: 700px; 
+margin-bottom: 20px;
+}
+
+.horarios-tab {
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.horarios-menu li a {
+padding: 10px 15px;
+width: 90px;
+}
+
+.horarios-menu li {
+margin-right: 12px;
+}
+
+.horarios-menu li:last-child {
+margin-right: 0;
+}
+
+
+::-webkit-scrollbar {
+width: 15px;
+}
+
+::-webkit-scrollbar-track {
+background-color:#d3d2c5 ;
+border-radius: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+ 
+::-webkit-scrollbar-thumb {
+background: var(--cor-brand-1); 
+border-radius: 15px;
+border-left: 10px solid #d3d2c5;
+border-right: 10px solid #d3d2c5;
+}
+}
+
+
+@media(max-width: 480px){
+.horarios-menu{
+flex-wrap: wrap;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.horarios-menu li {
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+.horarios-menu li:last-child {
+margin-right: 0;
+}
+}
+
+@media(max-width: 380px){
+.horarios-menu{
+flex-wrap: nowrap;
+flex-direction: column;
+}
+
+.horarios-menu li {
+margin-right: 0px;
+margin-bottom: 10px;
+}
+
+.horarios-menu li:last-child {
+margin-right: 0;
+margin-bottom: 0px;
+}
+}

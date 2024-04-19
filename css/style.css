@@ -1,0 +1,63 @@
+/*Global*/
+@import "global/global.css";
+@import "global/header.css";
+@import "global/footer.css";
+@import "global/menu-mobile.css";
+
+/*Utilidades*/
+@import "utilidades/componentes.css";
+@import "utilidades/tipografia.css";
+@import "utilidades/cores.css";
+
+/*home*/
+@import "home/intro.css";
+@import "home/campeao.css";
+@import "home/pass.css";
+@import "home/diferenciais.css";
+@import "home/horarios.css";
+@import "home/planos.css";
+@import "home/aula-experimental.css";
+
+/* academia */
+@import "academia/academia-sobre.css";
+@import "academia/estrutura.css";
+@import "academia/treinos.css";
+
+/* modalidades */
+@import "modalidades/modalidades.css";
+@import "modalidades/garanta-plano.css";
+
+
+/* contato */
+@import "contato/contato.css";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

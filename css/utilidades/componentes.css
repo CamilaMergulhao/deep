@@ -1,0 +1,114 @@
+.container {
+box-sizing: border-box;
+padding: 0px 20px 0px 20px;
+max-width: 1100px;
+margin: 0 auto;
+}
+
+.btn-01,
+.btn-03 {
+color: var(--cor-0);
+background-color: var(--cor-brand-1);
+font-family: "Bai Jamjuree", sans-serif;
+font-weight: 400;
+font-size: 1.125rem;
+transition: 0.2s;
+max-width: max-content;
+border-radius: 100px;
+}
+
+.btn-01 {
+padding: 12px 32px;
+}
+
+.btn-03 {
+padding: 12px 40px;
+}
+
+.btn-01:hover,
+.btn-03:hover,
+.btn-form:hover {
+background-color: var(--cor-id-1);
+}
+
+.btn-02 {
+max-width: max-content;
+color: var(--cor-0);
+padding: 12px 40px;
+border-radius: 100px;
+font-family: "Bai Jamjuree", sans-serif;
+font-weight: 400;
+font-size: 1.125rem;
+background-color: rgba(57, 57, 57, 0.5);
+backdrop-filter: blur(20px);
+border: 1px solid #494949;
+transition: 0.2s;
+}
+
+.btn-02:hover {
+background-color: rgba(71, 71, 71, 0.5);
+}
+
+.btn-form {
+color: var(--cor-0);
+background-color: var(--cor-brand-1);
+font-family: "Bai Jamjuree", sans-serif;
+font-weight: 400;
+font-size: 1.125rem;
+transition: 0.2s;
+max-width: max-content;
+border-radius: 100px;
+cursor: pointer;
+padding: 12px 32px;
+}
+
+.hr-vertical {
+border: none; 
+border-left: 1px solid var(--cor-preto); 
+height: 100px; 
+margin: 40px;
+}
+
+/* media-queries */
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 650px) {
+.hr-vertical {
+margin: 30px;
+}
+
+.btn-01,
+.btn-02,
+.btn-03,
+.btn-form {
+font-size: 1rem;
+}
+
+.btn-01,
+.btn-02,
+.btn-03,
+.btn-form {
+padding: 12px 30px;
+}
+}
+
+
+@media(max-width: 550px){
+.hr-vertical {
+display: none;
+}
+}
+
+
+@media(max-width: 480px){
+.btn-01,
+.btn-02,
+.btn-03,
+.btn-form{
+padding: 10px 20px;
+}
+
+}
+

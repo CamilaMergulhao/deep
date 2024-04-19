@@ -1,0 +1,112 @@
+.planos-bg {
+background-color: var(--cor-preto-2);
+}
+
+.planos {
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.planos-title {
+text-align: center;
+max-width: 400px;
+margin: 0 auto;
+margin-bottom: 40px;
+}
+
+.planos-ctn {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 2rem;
+}
+
+.planos-box-title {
+background-color: var(--cor-preto);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.box-brand-1 {
+background-color: var(--cor-brand-1);
+}
+
+.planos-box-texto {
+background-color: var(--cor-preto-1);
+text-align: center;
+padding-top: 40px;
+padding-bottom: 50px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.planos-box-texto-listas {
+margin-bottom: 50px;
+padding-right: 40px;
+padding-left: 40px;
+}
+
+.planos-box-texto-listas li {
+border-bottom: 1px solid var(--cor-cinza-1);
+padding-bottom: 5px;
+margin-bottom: 5px;
+}
+
+.planos-box-texto-listas li:last-child {
+border-bottom: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+.planos-box-texto-matricula {
+padding-right: 40px;
+padding-left: 40px;
+}
+
+.plano-box-texto-matricula-preco {
+margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+.planos-ctn {
+display: grid;
+grid-template-columns: 1fr;
+gap: 2rem;
+max-width: 500px;
+margin: 0 auto;
+}
+
+.planos {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.planos-title{
+margin-bottom: 30px;
+}
+}
+
+@media(max-width: 650px){
+.planos-title{
+margin-bottom: 20px;
+}
+}
+
+
+@media (max-width: 480px) {
+.planos {
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.planos-box-texto {
+padding-top: 30px;
+padding-bottom: 45px;
+}
+
+.planos-box-texto-listas{
+margin-bottom: 30px;
+}
+}

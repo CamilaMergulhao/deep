@@ -1,0 +1,47 @@
+.garanta-plano-bg{
+background-image: url("../../img/garanta-plano-bg.jpg");
+background-repeat: no-repeat;
+background-size: cover; 
+height: 100%;
+width: 100%;
+position: relative;
+}
+
+.garanta-plano-bg::before {
+position: absolute;
+content: ""; 
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.866); 
+z-index: 3;
+}
+
+.garanta-plano{
+padding-top: 100px;
+padding-bottom: 100px;
+z-index: 4;
+position: relative;
+text-align: center;
+}
+
+
+.garanta-plano h2{
+margin-bottom: 30px;
+}
+
+
+@media(max-width: 900px){
+.garanta-plano{
+padding-top: 80px;
+padding-bottom: 80px;
+}
+}
+
+@media(max-width: 480px){
+.garanta-plano{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+}

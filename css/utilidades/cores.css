@@ -1,0 +1,76 @@
+:root{
+/*brand*/
+--cor-brand-1: #781414;
+--cor-brand-2: #EEECDD;
+
+/* cor-padrao */
+--cor-0: #ffff;
+--cor-preto: #000000;
+--cor-preto-1: #171717;
+--cor-preto-2: #282828;
+--cor-preto-3: #393939;
+
+
+--cor-cinza-1: #383838;
+--cor-cinza-2: #525252;
+--cor-cinza-3: #282828;
+
+/* cor id */
+--cor-id-1: #9B1112;
+--cor-id-2: #BE090D;
+--cor-id-3: #E20000;
+}
+
+
+.cor-0{
+color: var(--cor-0);
+}
+
+.cor-preto{
+color: var(--cor-preto);
+}
+
+.cor-preto-1{
+color: var(--cor-preto-1);
+}
+
+.cor-preto-2{
+color: var(--cor-preto-2);
+}
+
+.cor-preto-3{
+color: var(--cor-preto-3);
+}
+
+
+.cor-cinza-1{
+color: var(--cor-cinza-1);
+}
+
+.cor-cinza-2{
+color: var(--cor-cinza-2);
+}
+
+.cor-cinza-3{
+color: var(--cor-cinza-3);
+}
+
+.cor-brand-1{
+color: var(--cor-brand-1);
+}
+
+.cor-brand-2{
+color: var(--cor-brand-2);
+}
+
+.cor-id-1{
+color: var(--cor-id-1);
+}
+
+.cor-id-2{
+color: var(--cor-id-2);
+}
+
+.cor-id-3{
+color: var(--cor-id-3);
+}
